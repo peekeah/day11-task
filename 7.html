@@ -1,0 +1,158 @@
+<!-- Creating a card -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <style>
+        table {
+            /* size: fixed; */
+            table-layout: fixed;
+            width: 590px;
+            /* border-collapse: collapse; */
+        }
+        table td{
+            height:25px;
+        }
+        section {
+            width: 480px;
+            padding: 10px;
+        }
+        th {
+            background-color: red;
+            color: white;
+            font-size: 20px;
+            
+        }
+        .table-2{
+            font-weight: bold;
+            margin-top: 10px;
+            font-size: 20px;
+        }
+        .subscripton-time{
+            margin-top: 5px;
+        }
+        .zip {
+            text-align: center;
+        }
+        .user-info {
+            text-align: center;
+            font-family: 'Parisienne', cursive;
+            text-weight: bold;
+        }
+        .card {
+            border: 3px solid black;
+            width: 590px;
+        }
+        .user-input {
+            text-align: center;
+            font-family: 'Parisienne', cursive;
+            text-weight: bold;
+            position: relative;
+            top: -331px;
+        }
+        .table-1{
+            display: relative;
+            table-layout: fixed;
+        }
+        .table-1 td{
+            height: 25px:
+        }
+        .table-3 {
+            table-layout: fixed;
+        }
+        .table-3 td{
+            height: 25px;
+            font-weight: bold;
+        }
+     
+        
+    
+    </style>
+</head>
+<body>
+    <div>
+        <section class="card">
+            <table class="table-1" border="0" cellspacing="0" cellpadding="0">
+                <th colspan="4">Yes! I want to subscribe to <em>Mag-O-Zine</em></th>
+                <tr class="underline">
+                    <td colspan="2">__________________________________  </td>
+                    <td colspan="2">___________________________________  </td>
+                </tr>
+                <tr>
+                    <td colspan="2">First Name</td>
+                    <td colspan="2">Last Name</td>
+                </tr> 
+                <tr class="underline">
+                    <td colspan="4">______________________________________________________________________</td>
+                </tr>
+                <tr>
+                    <td colspan="4">Address</td>
+                </tr> 
+                
+                <tr class="underline">
+                    <td>_______________</td>
+                    <td>__________________</td>
+                    <td colspan="2" class="zip">_____________</td>
+                </tr>
+                
+                <tr class="address-line-2">
+                    <td>City</td>
+                    <td>State</td>
+                    <td colspan="2" class="zip">Zip</td>
+                </tr>
+            </table>
+            <table class="table-2">
+                <tr>
+                    <td>Subscribe for:
+                        <input type="checkbox" name="subscription" id="#">1 year ($19.95)
+                        <input type="checkbox" name="subscription" id="#">2 years ($35.00)
+                    </td>
+                </tr>
+                <tr>
+                    <td>Send me more informaton about:</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="subscription">Computer-Zine</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="subscription">Fishing-Zine</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="subscription">Cat-O-Zine</td>
+                </tr>
+            </table>  
+        </section>
+        <section class="user-input">
+            <table class="table-3" cellspacing="0" cellpadding="0">
+                <tr class="user-info">
+                    <td colspan="2">Joe</td>
+                    <td colspan="2">Schmegeggie</td>
+                </tr>
+                <td>
+                    <td>&nbsp</td>
+                </td>
+                <tr class="user-info">
+                    <td colspan="4">1001 Washington Street</td>
+                </tr>
+                <td>
+                    <td>&nbsp</td>
+                </td>
+                <tr class="user-info">
+                    <td>Amtyoum</td>
+                    <td>CA</td>
+                    <td colspan="2" class="zip">99999</td>
+                </tr>
+                <td>
+                    <td>&nbsp</td>
+                </td>
+            </table>
+        </section>
+    </div>
+</body>
+</html>
